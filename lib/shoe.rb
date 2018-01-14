@@ -13,6 +13,7 @@ class Shoe
   def condition 
     if @condition == "old"
       cobble 
+      return "new"
     else 
       @condition
     end
