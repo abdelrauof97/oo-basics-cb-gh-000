@@ -1,7 +1,7 @@
 class Book 
   attr_accessor :author, :page_count, :genre
   attr_reader :title
-  def initialize(title="And Then There Were None")
+  def initialize(title)
     @title = title
   end
   
@@ -11,7 +11,7 @@ class Book
 
 end 
 # learn spec/01_book_spec.rb --fail-fast
-
+book = Book.new()
 
 
 
