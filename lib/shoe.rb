@@ -17,6 +17,7 @@ class Shoe
     else 
       @condition
     end
+  end
   
 end
 
